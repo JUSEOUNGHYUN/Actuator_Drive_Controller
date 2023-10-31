@@ -13,6 +13,8 @@
 # 📺 기본 화면
 - IP,Port Canvas, Touch, Throw, Bounce, Init_Object, UI Activate
 
+https://github.com/JUSEOUNGHYUN/FIMWOMANAGER/assets/80812790/fc8bfcac-b9d2-441b-8fe9-a56235c1c4ea
+
 # 🎏 기능 구현
 - Unity와 Ultraleap과 연동 후 데이터 송수신
 - Unity와 펌웨어 COM과 NetworkSocket으로 Server-Client 통신
