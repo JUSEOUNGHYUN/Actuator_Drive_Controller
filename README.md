@@ -1,12 +1,24 @@
-# Actuator_Drive_Controller
+# 📛 Actuator_Drive_Controller
 
-- vr finger motion인 ultraleap과 unity와 연동하여 ultraleap finger와 unity 3d obejct와 닿을때마다 펌웨어 server COM에게 손가락주파수, pulse width의 데이터를 보내는 프로그램을 구현했습니다.
+📍 프로젝트 기간 : 2022.11.18 ~ 2023.03.02 (4개월)
+
+# 📌 개요
+- VR Finger Motion인 ultraleap과 unity와 연동하여 ultraleap finger와 unity 3d obejct와 닿을때마다 펌웨어 server COM에게 Finger Frequency, pulse width의 데이터를 보내는 프로그램을 구현했습니다.
 - 성균관대학교 과제
 - Touch, Throw, Bounce 총 3개의 모드가 있습니다.
 
-# 기술
-Unity3D, UltraLeap, C# 
+# 🛠️ 기술
+<img src="https://img.shields.io/badge/C Sharp-239120?style=flat-square&logo=C Sharp&logoColor=white"/> <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=Unity&logoColor=white"/> <img src="https://img.shields.io/badge/Ultraleap-40AEF0?style=flat-square&logo=Ultraleap&logoColor=white"/>
 
-# 기능 구현
+# 🎏 기능 구현
+- Unity와 Ultraleap과 연동 후 데이터 송수신
+- Unity와 펌웨어 COM과 NetworkSocket으로 Server-Client 통신
+- COM = Server , Unity(PC) = Client
+- COM과 송수신할때 보내는 데이터 수치를 쉽게 볼수 있게 Unity에서 Canvas(UI) 개발
+- 3D Object인 농구공을 Ultraleap을 (Touch, Throw, Bounce) 3개의 모드 구현
+- DataLog 파일 생성 및 Write
 
-# 느낀점
+### 
+
+
+
