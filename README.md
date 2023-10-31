@@ -10,6 +10,9 @@
 # 🛠️ 기술
 <img src="https://img.shields.io/badge/C Sharp-239120?style=flat-square&logo=C Sharp&logoColor=white"/> <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=Unity&logoColor=white"/> <img src="https://img.shields.io/badge/Ultraleap-40AEF0?style=flat-square&logo=Ultraleap&logoColor=white"/>
 
+# 📺 기본 화면
+- IP,Port Canvas, Touch, Throw, Bounce, Init_Object, UI Activate
+
 # 🎏 기능 구현
 - Unity와 Ultraleap과 연동 후 데이터 송수신
 - Unity와 펌웨어 COM과 NetworkSocket으로 Server-Client 통신
@@ -18,7 +21,14 @@
 - 3D Object인 농구공을 Ultraleap을 (Touch, Throw, Bounce) 3개의 모드 구현
 - DataLog 파일 생성 및 Write
 
-### 
+## 1. Unity Ultraleap 연동
+https://github.com/JUSEOUNGHYUN/FIMWOMANAGER/assets/80812790/a454dc05-50c7-4671-9609-0c6c25dcb7c6
 
+## 2. Throw Mode
+https://github.com/JUSEOUNGHYUN/FIMWOMANAGER/assets/80812790/f76d7e20-6b06-4e55-88e5-a583da834d16
+
+
+# 🎥 시연 동영상
+https://github.com/JUSEOUNGHYUN/FIMWOMANAGER/assets/80812790/bf44583b-846a-4c2e-83ec-198a0f790967
 
 
