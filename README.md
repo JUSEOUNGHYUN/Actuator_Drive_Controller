@@ -18,13 +18,13 @@
 - Unity 3D 충돌 감지 함수 OnCollisionEnter와 OnTriggerEnter 사용
 - 3D Object인 농구공을 Ultraleap을 (Touch, Throw, Bounce) 3개의 모드 구현
 - ### Mode
-1. Touch Mode <br/>
-Ultraleap VR Finger motion이 농구공(Unity 3D Object)와 닿을 때, 닿은 각각 손가락의 프로토콜 데이터를 펌웨어 COM(Server)에게 송신합니다.
-
-2. Throw Mode <br/>
+1. Throw Mode <br/>
 Unity Asset Store에서 피격 모델(BaseBall Player)을 구입후,
 농구공이 피격 모델을 맞췄을 때 맞춘 특정 부위의 프로토콜 데이터를 Server에게 송신합니다.
 BODY(Head, Chest, Left Hand, Left Arm, Left Leg, Left Thigh, Right Hand, Right Arm, Right Leg, Right Thigh)
+
+2. Touch Mode <br/>
+Ultraleap VR Finger motion이 농구공(Unity 3D Object)와 닿을 때, 닿은 각각 손가락의 프로토콜 데이터를 펌웨어 COM(Server)에게 송신합니다.
 
 3. Bounce Mode <br/>
 VR Finger motion이 농구공을 튕길때 만질때 ON / 손에서 떨어졌을때 OFF로 구현했습니다.
